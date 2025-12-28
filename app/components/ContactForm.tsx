@@ -15,8 +15,15 @@ export default function ContactForm() {
 
     const formData = new FormData(e.currentTarget);
     
-    // Add Web3Forms access key
-    formData.append('access_key', 'YOUR_WEB3FORMS_ACCESS_KEY'); // Replace with actual key
+    // Add Web3Forms access key from environment variable
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+    if (!accessKey) {
+      console.error('Web3Forms access key is not configured');
+      setSubmitStatus('error');
+      setIsSubmitting(false);
+      return;
+    }
+    formData.append('access_key', accessKey);
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
