@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Stats from './components/Stats';
 import WhyUs from './components/WhyUs';
 import HowWeWork from './components/HowWeWork';
+import FleetGallery from './components/FleetGallery';
 import { useLanguage } from './i18n/LanguageContext';
 
 export default function Home() {
@@ -29,8 +30,8 @@ export default function Home() {
             <div className="relative">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/verde 3.jpg"
-                  alt="BDD Logspeed Truck"
+                  src="/images/more/Transportation-703-min.jpg"
+                  alt="Transport Fleet"
                   fill
                   className="object-cover"
                 />
@@ -113,8 +114,8 @@ export default function Home() {
             <div className="relative hidden lg:block">
               <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <Image
-                  src="/images/verde 2.jpg"
-                  alt="BDD Logspeed Fleet"
+                  src="/images/more/Transportation-670-min.jpg"
+                  alt="Transport Services"
                   fill
                   className="object-cover"
                 />
@@ -160,46 +161,7 @@ export default function Home() {
       </section>
 
       {/* Gallery Section */}
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Our Fleet
-            </h2>
-            <div className="w-24 h-1 bg-emerald-500 mx-auto rounded-full" />
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden group">
-              <Image
-                src="/images/verde 2.jpg"
-                alt="BDD Logspeed Fleet"
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden group">
-              <Image
-                src="/images/verde 3.jpg"
-                alt="BDD Logspeed Truck"
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden group">
-              <Image
-                src="/images/alb.jpg"
-                alt="BDD Logspeed White Truck"
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <FleetGallery />
     </>
   );
 }

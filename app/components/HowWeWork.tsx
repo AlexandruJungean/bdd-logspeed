@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import { useLanguage } from '../i18n/LanguageContext';
 
 export default function HowWeWork() {
@@ -58,21 +57,6 @@ export default function HowWeWork() {
           ))}
         </div>
 
-        {/* Outro and CTA */}
-        <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-3xl p-8 md:p-12 text-center">
-          <p className="text-slate-300 text-lg mb-8 max-w-3xl mx-auto">
-            {t.howWeWork.outro}
-          </p>
-          <Link
-            href="/contact"
-            className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-white font-bold px-8 py-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/30"
-          >
-            {t.howWeWork.cta}
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </Link>
-        </div>
       </div>
     </section>
   );

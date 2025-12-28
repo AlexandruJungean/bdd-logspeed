@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Hero from '../components/Hero';
 import Values from '../components/Values';
+import FleetGallery from '../components/FleetGallery';
 import { useLanguage } from '../i18n/LanguageContext';
 
 export default function AboutPage() {
@@ -15,7 +16,7 @@ export default function AboutPage() {
       <Hero
         title={t.aboutPage.heroTitle}
         subtitle={t.aboutPage.heroSubtitle}
-        backgroundImage="/images/browser-pexels-unsplash/hero - mercedes.jpg"
+        backgroundImage="/images/more/hero - mercedes.jpg"
       />
 
       {/* About Company Section */}
@@ -26,8 +27,8 @@ export default function AboutPage() {
             <div className="relative order-2 lg:order-1">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/verde 3.jpg"
-                  alt="BDD Logspeed Team"
+                  src="/images/more/Transportation-703-min.jpg"
+                  alt="Transport Fleet"
                   fill
                   className="object-cover"
                 />
@@ -174,7 +175,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
                 <Image
-                  src="/images/browser-pexels-unsplash/marcin-jozwiak-kGoPcmpPT7c-unsplash.jpg"
+                  src="/images/more/marcin-jozwiak-kGoPcmpPT7c-unsplash.jpg"
                   alt="Road Transport"
                   fill
                   className="object-cover"
@@ -192,61 +193,8 @@ export default function AboutPage() {
       <Values />
 
       {/* Team/Fleet Gallery */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Our Fleet
-            </h2>
-            <div className="w-24 h-1 bg-emerald-500 mx-auto rounded-full mb-6" />
-            <p className="text-slate-600 max-w-2xl mx-auto">
-              Modern Mercedes-Benz trucks equipped with the latest technology for safe and efficient transportation.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden group shadow-lg">
-              <Image
-                src="/images/verde 2.jpg"
-                alt="Green BDD Logspeed Truck"
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-white font-semibold">Mercedes-Benz Actros</p>
-                <p className="text-emerald-400 text-sm">AR-77-BDD</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden group shadow-lg">
-              <Image
-                src="/images/verde 3.jpg"
-                alt="BDD Logspeed Truck Front View"
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-white font-semibold">Mercedes-Benz Actros</p>
-                <p className="text-emerald-400 text-sm">AR-77-BDD</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden group shadow-lg">
-              <Image
-                src="/images/alb.jpg"
-                alt="White BDD Logspeed Truck"
-                fill
-                className="object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <p className="text-white font-semibold">Mercedes-Benz Actros</p>
-                <p className="text-emerald-400 text-sm">AR-73-BDD</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <FleetGallery />
+
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-br from-slate-900 to-slate-800 relative overflow-hidden">

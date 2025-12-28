@@ -16,7 +16,7 @@ export default function Hero({
   subtitle, 
   description, 
   showCta = false,
-  backgroundImage = '/images/browser-pexels-unsplash/hero - mercedes.jpg'
+  backgroundImage = '/images/more/hero - mercedes.jpg'
 }: HeroProps) {
   const { t } = useLanguage();
 
