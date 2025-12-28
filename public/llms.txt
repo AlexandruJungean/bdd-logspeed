@@ -1,0 +1,105 @@
+# BDD Logspeed - International Road Transport Company
+
+> Professional road transport and logistics services across Europe since 2016.
+
+## About This Website
+
+This is the official website of BDD Logspeed (S.C. BE DOUBLE D LOGSPEED S.R.L.), an international road transport company based in Arad, Romania.
+
+## Company Information
+
+- **Company Name:** BDD Logspeed (BE DOUBLE D LOGSPEED S.R.L.)
+- **Founded:** 2016
+- **Location:** Str. Slatinei, Nr. 2, Arad, Romania
+- **CUI (Tax ID):** 35422580
+- **Registration Number:** J02/58/2016
+
+## Contact Information
+
+- **Phone:** +40 755 297 614
+- **Email:** office@bddlogspeed.ro
+- **Facebook:** https://www.facebook.com/bdd.logspeed
+
+## Services
+
+BDD Logspeed provides international road transport services including:
+- Full Truck Load (FTL) transport
+- Less Than Truck Load (LTL) transport
+- Freight transport across Europe
+- National and international logistics
+
+## Service Area
+
+We operate across 12+ European countries including:
+- Romania
+- Germany
+- France
+- Italy
+- Spain
+- Hungary
+- Poland
+- Czech Republic
+- Austria
+- Netherlands
+- Belgium
+- United Kingdom
+
+## Fleet
+
+- 10 modern Mercedes-Benz trucks
+- 110+ monthly shipments
+- Equipped with latest tracking technology
+
+## Key Statistics
+
+- 8+ years of experience
+- 10 trucks in fleet
+- 12 countries served
+- 110+ shipments per month
+
+## Website Structure
+
+- `/` - Home page with company overview, services, and fleet gallery
+- `/about` - Detailed company information, mission, and values
+- `/contact` - Contact form, phone, email, address, and map location
+
+## Languages Supported
+
+The website is available in 9 languages:
+- English
+- Romanian (Română)
+- German (Deutsch)
+- Hungarian (Magyar)
+- French (Français)
+- Italian (Italiano)
+- Spanish (Español)
+- Polish (Polski)
+- Czech (Čeština)
+
+## Technical Information
+
+- Built with Next.js 14 (App Router)
+- Responsive design for all devices
+- Modern UI with Tailwind CSS
+
+## How to Request a Quote
+
+1. Visit the contact page at /contact
+2. Fill out the contact form with:
+   - What you need to transport
+   - Loading and delivery locations
+   - When goods will be ready
+   - If palletized or bulk cargo
+   - Weight of goods
+3. Our team will respond with a quotation
+
+## Business Hours
+
+- Monday - Friday: 08:00 - 18:00
+- Saturday: Available by appointment
+- Sunday: Closed
+
+---
+
+For more information, visit https://bddlogspeed.ro or contact us directly.
+
