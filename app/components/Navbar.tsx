@@ -45,7 +45,7 @@ export default function Navbar() {
               alt="BDD Logspeed"
               width={180}
               height={50}
-              className="h-10 sm:h-12 w-auto transition-transform duration-300 group-hover:scale-105"
+              className="h-7 sm:h-10 md:h-12 w-auto transition-transform duration-300 group-hover:scale-105"
               priority
             />
           </Link>

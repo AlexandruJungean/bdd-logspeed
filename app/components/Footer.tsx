@@ -20,7 +20,7 @@ export default function Footer() {
                 alt="BDD Logspeed"
                 width={180}
                 height={50}
-                className="h-12 w-auto"
+                className="h-8 sm:h-10 md:h-12 w-auto"
               />
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
