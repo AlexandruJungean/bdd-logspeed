@@ -140,9 +140,7 @@ web-bdd-logspeed/
 
 ## 🌐 Deployment
 
-This website is optimized for deployment on [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/web-bdd-logspeed)
+This website is hosted on cPanel (CyberFolks).
 
 ## 📄 License
 
